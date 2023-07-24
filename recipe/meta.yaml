@@ -1,5 +1,5 @@
 {% set name = "supervision" %}
-{% set version = "0.6.0" %}
+{% set version = "0.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/supervision-{{ version }}.tar.gz
-  sha256: e1e3e54034c672414aca57b3f6c5e915967a15e1ffd1510956c61f12563a3c56
+  sha256: f0e7dc59703ce4d4f6a5064f516472fc57943f763893b51ed6730e44fd0f224b
 
 build:
   noarch: python
