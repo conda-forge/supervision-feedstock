@@ -1,5 +1,5 @@
 {% set name = "supervision" %}
-{% set version = "0.6.0" %}
+{% set version = "0.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/supervision-{{ version }}.tar.gz
-  sha256: e1e3e54034c672414aca57b3f6c5e915967a15e1ffd1510956c61f12563a3c56
+  sha256: 6f83229f7f7866df7141370231f24dd3ac824c989f17854ed31f91dc0769fd5a
 
 build:
   noarch: python
@@ -16,14 +16,19 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
-    - python >=3.7
-    - numpy >=1.20.0
+    - python >=3.8
+    - numpy >=1.21.2
     - opencv
     - matplotlib-base
     - pyyaml
+    - scipy
+    - defusedxml
+    - requests
+    - tqdm
+
 
 test:
   imports:
@@ -34,11 +39,19 @@ test:
     - pip
 
 about:
-  home: https://github.com/roboflow/supervision
-  summary: A set of easy-to-use utils that will come in handy in any Computer Vision project
+  home: https://pypi.org/project/supervision/
+  summary: Supervision is reusable computer vision tools.
   license: MIT
   license_file: LICENSE.md
+  description: |
+    [Supervision](https://supervision.roboflow.com) is reusable computer vision tools. 
+    Whether you need to load your dataset from your hard drive, 
+    draw detections on an image or video, or count how many detections are in a zone. 
+  doc_url: https://supervision.roboflow.com
+  dev_url: https://github.com/roboflow/supervision
 
 extra:
   recipe-maintainers:
     - giswqs
+    - onuralpszr
+    - skalskiP
