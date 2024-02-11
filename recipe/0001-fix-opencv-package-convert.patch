@@ -1,0 +1,14 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index 799d294..af296b9 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -39,8 +39,7 @@ scipy = [
+ ]
+ matplotlib = ">=3.6.0"
+ pyyaml = ">=5.3"
+-opencv-python = { version = ">=4.5.5.64", optional = true }
+-opencv-python-headless = ">=4.5.5.64"
++opencv-python = { version = ">=4.5.5.64"}
+ requests = { version = ">=2.26.0,<=2.31.0", optional = true }
+ tqdm = { version = ">=4.62.3,<=4.66.1", optional = true }
+ defusedxml = "^0.7.1"
