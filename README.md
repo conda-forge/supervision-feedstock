@@ -3,11 +3,20 @@ About supervision-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/supervision-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/roboflow/supervision
+Home: https://pypi.org/project/supervision/
 
 Package license: MIT
 
-Summary: A set of easy-to-use utils that will come in handy in any Computer Vision project
+Summary: Supervision is reusable computer vision tools.
+
+Development: https://github.com/roboflow/supervision
+
+Documentation: https://supervision.roboflow.com
+
+[Supervision](https://supervision.roboflow.com) is reusable computer vision tools.
+Whether you need to load your dataset from your hard drive,
+draw detections on an image or video, or count how many detections are in a zone.
+
 
 Current build status
 ====================
@@ -95,7 +104,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -144,4 +153,6 @@ Feedstock Maintainers
 =====================
 
 * [@giswqs](https://github.com/giswqs/)
+* [@onuralpszr](https://github.com/onuralpszr/)
+* [@skalskiP](https://github.com/skalskiP/)
 
