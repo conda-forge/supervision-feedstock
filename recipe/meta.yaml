@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -36,6 +36,9 @@ requirements:
     - defusedxml
     - requests
     - tqdm
+    - gstreamer
+    - gst-plugins-base
+    - gst-plugins-good
 
 
 test:
