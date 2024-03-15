@@ -1,5 +1,5 @@
 {% set name = "supervision" %}
-{% set version = "0.18.0" %}
+{% set version = "0.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/supervision-{{ version }}.tar.gz
-  sha256: 6f83229f7f7866df7141370231f24dd3ac824c989f17854ed31f91dc0769fd5a
+  sha256: 6fbcc87ec2e85388f00b0603b50b78a48003e39924e178a3323b4da3f32559ce
   patches:
     - 0001-fix-opencv-package-convert.patch
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   build:
