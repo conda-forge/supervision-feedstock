@@ -1,14 +1,24 @@
-diff --git a/pyproject.toml b/pyproject.toml
-index 799d294..af296b9 100644
+diff --git a/pyproject.toml b/pyproject.toml.orig
+index 6a2477c..f9de35e 100644
 --- a/pyproject.toml
 +++ b/pyproject.toml
-@@ -39,8 +39,7 @@ scipy = [
- ]
+@@ -40,16 +40,11 @@ scipy = [
  matplotlib = ">=3.6.0"
  pyyaml = ">=5.3"
+ defusedxml = "^0.7.1"
 -opencv-python = { version = ">=4.5.5.64", optional = true }
 -opencv-python-headless = ">=4.5.5.64"
+-requests = { version = ">=2.26.0,<=2.31.0", optional = true }
+-tqdm = { version = ">=4.62.3,<=4.66.2", optional = true }
 +opencv-python = { version = ">=4.5.5.64"}
- requests = { version = ">=2.26.0,<=2.31.0", optional = true }
- tqdm = { version = ">=4.62.3,<=4.66.1", optional = true }
- defusedxml = "^0.7.1"
++requests = { version = ">=2.26.0,<=2.31.0"}
++tqdm = { version = ">=4.62.3,<=4.66.2"}
+ pillow = ">=9.4"
+ 
+-[tool.poetry.extras]
+-desktop = ["opencv-python"]
+-assets = ["requests","tqdm"]
+-
+ [tool.poetry.group.dev.dependencies]
+ twine = ">=4.0.2,<6.0.0"
+ pytest = ">=7.2.2,<9.0.0"
