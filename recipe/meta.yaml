@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/supervision-{{ version }}.tar.gz
-  sha256: 265d8b6f23c750a454caa1d98f75dc918c30ab9d248a63daa4251792e8d9e5e9
+  sha256: fdb845d4884c4ccfafc1198cd88a08539cfa5f9eeba729de645e17d5e9b6560a
   patches:
     - 0001-fix-opencv-package-convert.patch
 
