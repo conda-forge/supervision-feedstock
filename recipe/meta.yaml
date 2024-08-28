@@ -1,5 +1,5 @@
 {% set name = "supervision" %}
-{% set version = "0.22.0" %}
+{% set version = "0.23.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/supervision-{{ version }}.tar.gz
-  sha256: fdb845d4884c4ccfafc1198cd88a08539cfa5f9eeba729de645e17d5e9b6560a
+  sha256: 635039616604f60d232dd00db9e3d149cf4df3d7817e59dddeb058ec51c04351
   patches:
     - 0001-fix-opencv-package-convert.patch
 
@@ -39,6 +39,8 @@ requirements:
     - gstreamer
     - gst-plugins-base
     - gst-plugins-good
+    - pandas
+    - pandas-stubs
 
 
 test:
