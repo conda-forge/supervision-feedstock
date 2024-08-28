@@ -39,6 +39,8 @@ requirements:
     - gstreamer
     - gst-plugins-base
     - gst-plugins-good
+    - pandas
+    - pandas-stubs
 
 
 test:
