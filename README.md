@@ -13,7 +13,15 @@ Development: https://github.com/roboflow/supervision
 
 Documentation: https://supervision.roboflow.com
 
-[![Supervision](https://media.roboflow.com/open-source/supervision/rf-supervision-banner.png?updatedAt=1678995927529)](https://supervision.roboflow.com)
+<div align="center">
+  <p>
+    <a align="center" href="" target="https://supervision.roboflow.com">
+      <img
+        width="100%"
+        src="https://media.roboflow.com/open-source/supervision/rf-supervision-banner.png?updatedAt=1678995927529"
+      >
+    </a>
+  </p>
 
 [notebooks](https://github.com/roboflow/notebooks) | [inference](https://github.com/roboflow/inference) | [autodistill](https://github.com/autodistill/autodistill) | [maestro](https://github.com/roboflow/multimodal-maestro)
 
@@ -27,14 +35,17 @@ Documentation: https://supervision.roboflow.com
 [![discord](https://img.shields.io/discord/1159501506232451173)](https://discord.gg/GbfgXGJ8Bk)
 [![built-with-material-for-mkdocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
-[![roboflow/supervision | Trendshift](https://trendshift.io/api/badge/repositories/124)](https://trendshift.io/repositories/124)
+  <div align="center">
+    <a href="https://trendshift.io/repositories/124"  target="_blank"><img src="https://trendshift.io/api/badge/repositories/124" alt="roboflow%2Fsupervision | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  </div>
 
+</div>
 
+## 👋 hello
 
 **We write your reusable computer vision tools.** Whether you need to load your dataset from your hard drive, draw detections on an image or video, or count how many detections are in a zone. You can count on us! 🤝
 
 [![supervision-hackfest](https://media.roboflow.com/supervision/supervision-hacktoberfest-banner-2024.png)](https://github.com/roboflow/supervision/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest)
-
 
 Current build status
 ====================
