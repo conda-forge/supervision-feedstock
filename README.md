@@ -13,10 +13,27 @@ Development: https://github.com/roboflow/supervision
 
 Documentation: https://supervision.roboflow.com
 
-[Supervision](https://supervision.roboflow.com) is reusable computer vision tools.
-Whether you need to load your dataset from your hard drive,
-draw detections on an image or video, or count how many detections are in a zone.
+[![Supervision](https://media.roboflow.com/open-source/supervision/rf-supervision-banner.png?updatedAt=1678995927529)](https://supervision.roboflow.com)
 
+[notebooks](https://github.com/roboflow/notebooks) | [inference](https://github.com/roboflow/inference) | [autodistill](https://github.com/autodistill/autodistill) | [maestro](https://github.com/roboflow/multimodal-maestro)
+
+[![version](https://badge.fury.io/py/supervision.svg)](https://badge.fury.io/py/supervision)
+[![downloads](https://img.shields.io/pypi/dm/supervision)](https://pypistats.org/packages/supervision)
+[![snyk](https://snyk.io/advisor/python/supervision/badge.svg)](https://snyk.io/advisor/python/supervision)
+[![license](https://img.shields.io/pypi/l/supervision)](https://github.com/roboflow/supervision/blob/main/LICENSE.md)
+[![python-version](https://img.shields.io/pypi/pyversions/supervision)](https://badge.fury.io/py/supervision)
+[![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow/supervision/blob/main/demo.ipynb)
+[![gradio](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Roboflow/Annotators)
+[![discord](https://img.shields.io/discord/1159501506232451173)](https://discord.gg/GbfgXGJ8Bk)
+[![built-with-material-for-mkdocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
+[![roboflow/supervision | Trendshift](https://trendshift.io/api/badge/repositories/124)](https://trendshift.io/repositories/124)
+
+## 👋 hello
+
+**We write your reusable computer vision tools.** Whether you need to load your dataset from your hard drive, draw detections on an image or video, or count how many detections are in a zone. You can count on us! 🤝
+
+[![supervision-hackfest](https://media.roboflow.com/supervision/supervision-hacktoberfest-banner-2024.png)](https://github.com/roboflow/supervision/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest)
 
 Current build status
 ====================
