@@ -11,8 +11,8 @@ index c9aa384..9308b25 100644
 -# pandas: picked lowest major version that supports Python 3.8
 -pandas = { version = ">=2.0.0", optional = true }
 -pandas-stubs = { version = ">=2.0.0.230412", optional = true }
-+requests = ">=2.26.0,<=2.32.3"
-+tqdm = ">=4.62.3,<=4.66.5"
++requests = ">=2.26.0"
++tqdm = ">=4.62.3"
 +pandas = ">=2.0.0"
 +pandas-stubs = ">=2.0.0.230412"
  opencv-python = ">=4.5.5.64"

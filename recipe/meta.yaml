@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/supervision-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/supervision-{{ version }}.tar.gz
   sha256: ae71963a294c94cbf2a62e71dae60cc7756025b65bad439b9e374f8d902f0b66
   patches:
     - 0001-fix-package-list.patch
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   build:
