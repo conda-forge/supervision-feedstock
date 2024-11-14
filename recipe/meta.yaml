@@ -1,5 +1,6 @@
 {% set name = "supervision" %}
-{% set version = "0.24.0" %}
+{% set version = "0.25.0" %}
+{% set python_min = "3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +8,14 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/supervision-{{ version }}.tar.gz
-  sha256: ae71963a294c94cbf2a62e71dae60cc7756025b65bad439b9e374f8d902f0b66
+  sha256: 4d5f15a7e8f683527f4bc2a74b78c938b1213d1a6748cdf33d15a57bcc9b1bd0
   patches:
     - 0001-fix-package-list.patch
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -22,12 +23,12 @@ requirements:
     - pip
     - poetry
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - poetry
     - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - numpy >=1.21.2
     - opencv
     - py-opencv
@@ -45,6 +46,8 @@ requirements:
 
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - supervision
   commands:
