@@ -29,12 +29,7 @@ Documentation: https://supervision.roboflow.com
 
 [![roboflow/supervision | Trendshift](https://trendshift.io/api/badge/repositories/124)](https://trendshift.io/repositories/124)
 
-
-
 **We write your reusable computer vision tools.** Whether you need to load your dataset from your hard drive, draw detections on an image or video, or count how many detections are in a zone. You can count on us! 🤝
-
-[![supervision-hackfest](https://media.roboflow.com/supervision/supervision-hacktoberfest-banner-2024.png)](https://github.com/roboflow/supervision/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest)
-
 
 Current build status
 ====================
