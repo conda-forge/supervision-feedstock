@@ -1,6 +1,6 @@
 {% set name = "supervision" %}
-{% set version = "0.25.1" %}
-{% set python_min = "3.8" %}
+{% set version = "0.26.0" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/supervision-{{ version }}.tar.gz
-  sha256: 61781b4abe4fa6ff95c58af6aec7dd3451a78e7e6a797e9ea2787f93771dd031
+  sha256: 03801068ab55f75be10142772c3b1f68826b3d7af98ae341dfe6a474af299fcc
   patches:
     - 0001-fix-package-list.patch
 
@@ -30,14 +30,15 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy >=1.21.2
-    - opencv
+    - scipy >=1.10.0
+    - matplotlib-base >=3.6.0
+    - pyyaml >=5.3
+    - defusedxml >=0.7.1
+    - pillow >=9.4
+    - requests >=2.26.0
+    - tqdm >=4.62.3
+    - opencv >=4.5.5.64
     - py-opencv
-    - matplotlib-base
-    - pyyaml
-    - scipy
-    - defusedxml
-    - requests
-    - tqdm
     - gstreamer
     - gst-plugins-base
     - gst-plugins-good
