@@ -44,7 +44,7 @@ requirements:
     - gst-plugins-good
     - pandas >=2
     - pandas-stubs
-    - pydeprecate >=0.4.0
+    - brainor::pydeprecate >=0.4.0
 
 
 test:
