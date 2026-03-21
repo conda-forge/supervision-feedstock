@@ -1,5 +1,5 @@
 {% set name = "supervision" %}
-{% set version = "0.27.0.post1" %}
+{% set version = "0.27.0.post2" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/supervision-{{ version }}.tar.gz
-  sha256: ceffff41c5a5ce2efc27a81edda8eb47d6f3592a883f9cbe6b61042e480de264
+  sha256: be1283ef2000a593a4568d83289344af95befb8b847a954d5f099a43cb253dc9
   patches:
     - 0001-fix-package-list.patch
 
