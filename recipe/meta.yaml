@@ -29,27 +29,27 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - defusedxml >=0.7.1
-    - matplotlib-base >=3.6
     - numpy >=1.21.2
     - opencv >=4.5.5.64
     - py-opencv
+    - matplotlib-base >=3.6
     - pillow >=9.4
     - pyyaml >=5.3
     - requests >=2.26
     - scipy >=1.10
     - tqdm >=4.62.3
+    - pydeprecate >=0.7,<0.8
+    - pandas >=2.0.0
+    - defusedxml >=0.7.1
     - gstreamer
     - gst-plugins-base
-    - pandas-stubs
-    - pydeprecate >=0.4.0, <0.6.0
-    - pandas >=2.0.0
 
 
 test:
   requires:
     - python {{ python_min }}
     - pip
+    - pandas-stubs
   imports:
     - supervision
   commands:
