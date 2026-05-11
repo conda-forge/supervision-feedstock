@@ -35,6 +35,7 @@ requirements:
     - pyyaml >=5.3
     - defusedxml >=0.7.1
     - pillow >=9.4
+    - pandas >=2.0.0
     - requests >=2.26.0
     - tqdm >=4.62.3
     - opencv >=4.5.5.64
