@@ -41,10 +41,9 @@ requirements:
     - tqdm >=4.62.3
     - gstreamer
     - gst-plugins-base
-    - gst-plugins-good
-    - pandas >=2
     - pandas-stubs
-    - pydeprecate >=0.4.0
+    - pydeprecate >=0.4.0, <0.6.0
+    - pandas >=2.0.0
 
 
 test:
