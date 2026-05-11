@@ -173,4 +173,5 @@ Feedstock Maintainers
 * [@giswqs](https://github.com/giswqs/)
 * [@onuralpszr](https://github.com/onuralpszr/)
 * [@skalskiP](https://github.com/skalskiP/)
+* [@Borda](https://github.com/Borda/)
 
