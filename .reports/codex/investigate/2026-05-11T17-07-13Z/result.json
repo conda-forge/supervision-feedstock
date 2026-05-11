@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "checks_run": [
+    "patch-dry-run",
+    "git-apply-check",
+    "self-review"
+  ],
+  "checks_failed": [],
+  "findings": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "confidence": 0.98,
+  "artifact_path": ".reports/codex/investigate/2026-05-11T17-07-13Z/result.json",
+  "recommendations": [
+    "Keep the patch in sync with upstream pyproject.toml when bumping supervision versions."
+  ]
+}

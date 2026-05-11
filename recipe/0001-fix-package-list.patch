@@ -1,18 +1,18 @@
-diff --git a/pyproject.toml.orig b/pyproject.toml
+diff --git a/pyproject.toml b/pyproject.toml
 index ae252156..3fbec9c4 100644
---- a/pyproject.toml.orig
+--- a/pyproject.toml
 +++ b/pyproject.toml
-@@ -46,7 +46,8 @@ dependencies = [
-     "pillow>=9.4",
+@@ -47,7 +47,8 @@
      "requests>=2.26.0",
      "tqdm>=4.62.3",
--    "opencv-python>=4.5.5.64"
-+    "opencv-python>=4.5.5.64",
+     "opencv-python>=4.5.5.64",
+-    "pyDeprecate>=0.4.0,<0.6.0"
++    "pyDeprecate>=0.4.0,<0.6.0",
 +    "pandas>=2.0.0"
  ]
  
  [project.urls]
-@@ -55,11 +56,6 @@ Homepage = "https://github.com/roboflow/supervision"
+@@ -55,11 +56,6 @@
  Repository = "https://github.com/roboflow/supervision"
  Documentation = "https://supervision.roboflow.com/latest/"
  
