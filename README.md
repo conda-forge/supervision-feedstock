@@ -44,7 +44,7 @@ Current build status
     <td>All platforms:</td>
     <td>
       <a href="https://github.com/conda-forge/supervision-feedstock/actions/workflows/conda-build.yml">
-        <img src="https://github.com/conda-forge/supervision-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+        <img src="https://github.com/conda-forge/supervision-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main" alt="conda build status">
       </a>
     </td>
   </tr>

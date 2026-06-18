@@ -8,7 +8,7 @@ index ae252156..3fbec9c4 100644
    "numpy>=1.21.2",
 -  "opencv-python>=4.5.5.64",
    "pillow>=9.4",
-   "pydeprecate>=0.7,<0.8",
+   "pydeprecate>=0.9,<0.10",
    "pyyaml>=5.3",
    "requests>=2.26",
    "scipy>=1.10",
