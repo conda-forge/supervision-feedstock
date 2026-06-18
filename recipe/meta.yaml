@@ -21,11 +21,9 @@ requirements:
   build:
     - python
     - pip
-    - poetry
   host:
     - python {{ python_min }}
     - pip
-    - poetry
     - setuptools
   run:
     - python >={{ python_min }}
@@ -38,7 +36,7 @@ requirements:
     - requests >=2.26
     - scipy >=1.10
     - tqdm >=4.62.3
-    - pydeprecate >=0.7,<0.8
+    - pydeprecate >=0.9,<0.10
     - pandas >=2.0.0
     - defusedxml >=0.7.1
     - gstreamer
