@@ -216,6 +216,5 @@ Feedstock Maintainers
 
 * [@Borda](https://github.com/Borda/)
 * [@giswqs](https://github.com/giswqs/)
-* [@onuralpszr](https://github.com/onuralpszr/)
 * [@skalskiP](https://github.com/skalskiP/)
 
