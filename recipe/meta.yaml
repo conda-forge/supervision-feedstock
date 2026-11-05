@@ -1,5 +1,5 @@
 {% set name = "supervision" %}
-{% set version = "0.31.4" %}
+{% set version = "0.31.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/supervision-{{ version }}.tar.gz
-  sha256: 0692c3ce4f8733d7220631f09dd3b61b7b9a8d5441c052091838baf375fb3a2e
+  sha256: 9c9c57c1cacdb9efc3ed28791132311ec341913288df709dbd2007612e5ccf36
 
 build:
   noarch: python
